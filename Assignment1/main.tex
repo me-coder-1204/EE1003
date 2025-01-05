@@ -102,11 +102,16 @@
         y &= \frac{2 \sin{x} - \cos{x} + \, e^{-2x}}{5}
         % BALLS
     \end{align}
-    is the solution of the given differential equation with given inital conditions
+    is the solution of the given differential equation with given inital conditions\\
     
     
-    \item \textbf{CODING LOGIC:} The solution for the differential equation can be graphically solved using coding by using below logic :
+    \item \textbf{CODING LOGIC:} We use the Finite Difference Method to plot the given solution of the differential equation. The Difference equation is given by,
+    
+    $$
+        y_{i+1} = y_i + \frac{dy}{dx}|_{(x_{i-1}, y_{i-1})} \, h
+    $$
 
+    This can be implemented as an algorith as following,
     % \begin{align}
         
         % Start value of domain, x_1 &= 0\\
@@ -123,6 +128,7 @@
     %     \text{Step size, } h = \frac{x_2 - x_1}{resolution} = 0.25
     % \end{align}
 
+    
     \begin{algorithm}[!h]
         \caption{Finite Differnce Algorithm}
         \begin{algorithmic}
@@ -134,7 +140,7 @@
             \STATE \text{Number of interations, } $interations \gets 20$\\
             \STATE \text{Step size, } $h = 0.25$
             \FOR{$i$ in range(1, $interations$)}
-                \STATE $\displaystyle y_{i} \gets y_{i-1} + \frac{dy}{dx}|_{x_{i-1}, y_{i-1}} \, h$
+                \STATE $\displaystyle y_{i} \gets y_{i-1} + \frac{dy}{dx}|_{(x_{i-1}, y_{i-1})} \, h$
                 \STATE $x_i \gets x_{i-1} + h$
             \ENDFOR
             \STATE plot($x, y$)
@@ -142,7 +148,7 @@
     \end{algorithm}
     % \newpage
     Below is verification:
-    \begin{figure}  % The 'h' means 'here' (positioning)
+    \begin{figure}[!h]  % The 'h' means 'here' (positioning)
         \centering  % Centers the figure
         \includegraphics[width=\columnwidth]{figs/fig1.png}  
         \caption{Verification}
