@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736064202.494 "/home/arav/EE1003/EE1003/Assignment1/main.tex" "main.pdf" "main" 1736064203.50423 0
-  "/home/arav/EE1003/EE1003/Assignment1/main.tex" 1736064202.31318 5088 099c23815e99d0d4ab03b7e5cd0cc2d8 ""
+["pdflatex"] 1736084158.65703 "/home/arav/EE1003/EE1003/Assignment1/main.tex" "main.pdf" "main" 1736084159.54866 0
+  "/home/arav/EE1003/EE1003/Assignment1/main.tex" 1736084158.47611 5656 b4205a3574382b470fb6d60d1bb1a1d6 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1727349926 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1727349926 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1727349926 2228 e564491c42a4540b5ebb710a75ff306c ""
@@ -16,6 +16,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1727349926 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1727349926 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1727349926 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm" 1727349926 1048 a97cff5f6b833b712079817ce7a40d4c ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm" 1727349926 1056 e2202af076e43d03fc17f87e104021b0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm" 1727349926 4572 2c370d27bbb031f7592de9d41dc8cfca ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm" 1727349926 4452 0fd0a792eaab7113e4d4f1b941ff0367 ""
@@ -35,6 +36,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/txr.tfm" 1727349926 2408 aec793a3c45e495f7ad15b227c91f508 ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm" 1727349926 1268 1d124f224979493f8fd017a7597ea1cd ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/txsyc.tfm" 1727349926 1084 75e807e9e71f7a312e4e1187dce5e93b ""
+  "/usr/share/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb" 1727349926 6787 30821c47455d94d84f9e6f5bfecd086a ""
   "/usr/share/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb" 1727349926 13806 49b888f4605a088e66b9eb4fee320a6e ""
   "/usr/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb" 1727349926 6339 e2b78706efdc360ee6aec9b6e20211a7 ""
   "/usr/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb" 1727349926 17531 c91f2d6943f51d7c46d6b7b9cedd50ba ""
@@ -43,6 +45,7 @@
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1727349926 46026 6dab18b61c907687b520c72847215a68 ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1727349926 45458 a3faba884469519614ca56ba5f6b1de1 ""
   "/usr/share/texmf-dist/fonts/vf/public/txfonts/txb.vf" 1727349926 904 6f62e1cf12eaf73424d693287a9d3dce ""
+  "/usr/share/texmf-dist/fonts/vf/public/txfonts/txi.vf" 1727349926 904 4ff20c038f0c15338aa91e1bb66c7989 ""
   "/usr/share/texmf-dist/fonts/vf/public/txfonts/txmi.vf" 1727349926 960 cfcc9d587b40b769f64408b3ca115941 ""
   "/usr/share/texmf-dist/fonts/vf/public/txfonts/txr.vf" 1727349926 904 e582cae2d8ae3f48a0a520440ebcdb51 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1727349926 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -311,9 +314,9 @@
   "figs/fig1.png" 1735975007.0035 24711 b96d58eb89850569c9fe23a5a252d8fd ""
   "gvv-book.sty" 1735980391.19453 2552 b3fa9856c041accf435cbb23e23c6736 ""
   "gvv.sty" 1735975159.66091 4394 571e08b048e47d91d76be47712c5c5ed ""
-  "main.aux" 1736064203.41318 456 20ad6d6612978406a09edf3809ddba36 "pdflatex"
-  "main.out" 1736064203.36318 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1736064202.31318 5088 099c23815e99d0d4ab03b7e5cd0cc2d8 ""
+  "main.aux" 1736084159.4594 709 c26bcf9f1c82af92605ef9716bfb7990 "pdflatex"
+  "main.out" 1736084159.4594 292 8527b9e656667b104fcae2684cc74505 "pdflatex"
+  "main.tex" 1736084158.47611 5656 b4205a3574382b470fb6d60d1bb1a1d6 ""
   (generated)
   "main.aux"
   "main.log"
