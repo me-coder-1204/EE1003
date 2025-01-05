@@ -12,6 +12,7 @@
 \usepackage{gvv}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
@@ -36,6 +37,7 @@
 \usepackage{hhline}                                           
 \usepackage{ifthen}                                           
 \usepackage{lscape}
+% \usepackage{algpseudocode}
 \begin{document}
 
 \bibliographystyle{IEEEtran}
@@ -114,16 +116,33 @@
         
     % \end{align}
 
-    \begin{align}
-        \text{Start value of domain, } x_1 &= 0\\
-        \text{End value of domain, } x_2 &= 5\\
-        \text{Number of interations, } resolution &= 20\\
-        \text{Step size, } h = \frac{x_2 - x_1}{resolution} = 0.25
-    \end{align}
+    % \begin{align}
+    %     \text{Start value of domain, } x_1 &= 0\\
+    %     \text{End value of domain, } x_2 &= 5\\
+    %     \text{Number of interations, } resolution &= 20\\
+    %     \text{Step size, } h = \frac{x_2 - x_1}{resolution} = 0.25
+    % \end{align}
 
+    \begin{algorithm}[!h]
+        \caption{Finite Differnce Algorithm}
+        \begin{algorithmic}
+            \STATE \text{Inital condition, } $x_0 \gets 0$\\
+            % \STATE \text{End value of domain, } $x_2 \gets 5$\\
+            % \STATE $x \gets$ linspace($x_1$, $x_2$, $resolution$)
+            % \STATE $y \gets$ array of size($resolution$)
+            \STATE $y_0 \gets 0$
+            \STATE \text{Number of interations, } $interations \gets 20$\\
+            \STATE \text{Step size, } $h = 0.25$
+            \FOR{$i$ in range(1, $interations$)}
+                \STATE $\displaystyle y_{i} \gets y_{i-1} + \frac{dy}{dx}|_{x_{i-1}, y_{i-1}} \, h$
+                \STATE $x_i \gets x_{i-1} + h$
+            \ENDFOR
+            \STATE plot($x, y$)
+        \end{algorithmic}
+    \end{algorithm}
     % \newpage
     Below is verification:
-    \begin{figure}[h]  % The 'h' means 'here' (positioning)
+    \begin{figure}  % The 'h' means 'here' (positioning)
         \centering  % Centers the figure
         \includegraphics[width=\columnwidth]{figs/fig1.png}  
         \caption{Verification}

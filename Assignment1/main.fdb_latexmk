@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736006016.60597 "/home/arav/EE1003/EE1003/Assignment1/main.tex" "main.pdf" "main" 1736006017.48549 0
-  "/home/arav/EE1003/EE1003/Assignment1/main.tex" 1736006016.43727 4044 96ffe84408d550d42a52a97a85d1c18b ""
+["pdflatex"] 1736062959.39966 "/home/arav/EE1003/EE1003/Assignment1/main.tex" "main.pdf" "main" 1736062960.30621 0
+  "/home/arav/EE1003/EE1003/Assignment1/main.tex" 1736062959.20795 4909 f2e5ff611c4588fab884b3b069abb02c ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1727349926 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1727349926 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1727349926 2228 e564491c42a4540b5ebb710a75ff306c ""
@@ -160,6 +160,7 @@
   "/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex" 1727349926 29239 22e8c7516012992a49873eff0d868fed ""
   "/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def" 1727349926 6950 8524a062d82b7afdc4a88a57cb377784 ""
   "/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1727349926 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
+  "/usr/share/texmf-dist/tex/latex/algorithms/algorithm.sty" 1727349926 3249 15763257e50278eef5db1952ccde229c ""
   "/usr/share/texmf-dist/tex/latex/algorithms/algorithmic.sty" 1727349926 9318 793e9d5a71e74e730d97f6bf5d7e2bca ""
   "/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty" 1727349926 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1727349926 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
@@ -310,9 +311,9 @@
   "figs/fig1.png" 1735975007.0035 24711 b96d58eb89850569c9fe23a5a252d8fd ""
   "gvv-book.sty" 1735980391.19453 2552 b3fa9856c041accf435cbb23e23c6736 ""
   "gvv.sty" 1735975159.66091 4394 571e08b048e47d91d76be47712c5c5ed ""
-  "main.aux" 1736006017.39728 313 3fa5cb814f6c18cdc8635695f4a2e138 "pdflatex"
-  "main.out" 1736006017.35061 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1736006016.43727 4044 96ffe84408d550d42a52a97a85d1c18b ""
+  "main.aux" 1736062960.21463 456 20ad6d6612978406a09edf3809ddba36 "pdflatex"
+  "main.out" 1736062960.16463 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1736062959.20795 4909 f2e5ff611c4588fab884b3b069abb02c ""
   (generated)
   "main.aux"
   "main.log"
