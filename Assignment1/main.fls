@@ -710,7 +710,6 @@ INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT /usr/share/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
