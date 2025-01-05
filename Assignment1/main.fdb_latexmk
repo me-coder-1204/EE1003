@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736084158.65703 "/home/arav/EE1003/EE1003/Assignment1/main.tex" "main.pdf" "main" 1736084159.54866 0
-  "/home/arav/EE1003/EE1003/Assignment1/main.tex" 1736084158.47611 5656 b4205a3574382b470fb6d60d1bb1a1d6 ""
+["pdflatex"] 1736084376.7273 "/home/arav/EE1003/EE1003/Assignment1/main.tex" "main.pdf" "main" 1736084377.62028 0
+  "/home/arav/EE1003/EE1003/Assignment1/main.tex" 1736084338.94354 5657 16ab8aa1692e9cc14d116ff034d55c92 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1727349926 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1727349926 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1727349926 2228 e564491c42a4540b5ebb710a75ff306c ""
@@ -311,12 +311,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1733412868.51131 325518 3dff2bac5bde75cd7e600320ce8a00d6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1735981191 7113017 4af44054ac253c911da0583df511f8b2 ""
-  "figs/fig1.png" 1735975007.0035 24711 b96d58eb89850569c9fe23a5a252d8fd ""
+  "figs/fig1_.png" 1736084376.30924 23411 e5c54160591ad82f40650d01f9cfc291 ""
   "gvv-book.sty" 1735980391.19453 2552 b3fa9856c041accf435cbb23e23c6736 ""
   "gvv.sty" 1735975159.66091 4394 571e08b048e47d91d76be47712c5c5ed ""
-  "main.aux" 1736084159.4594 709 c26bcf9f1c82af92605ef9716bfb7990 "pdflatex"
-  "main.out" 1736084159.4594 292 8527b9e656667b104fcae2684cc74505 "pdflatex"
-  "main.tex" 1736084158.47611 5656 b4205a3574382b470fb6d60d1bb1a1d6 ""
+  "main.aux" 1736084377.52921 709 c26bcf9f1c82af92605ef9716bfb7990 "pdflatex"
+  "main.out" 1736084377.52921 292 8527b9e656667b104fcae2684cc74505 "pdflatex"
+  "main.tex" 1736084338.94354 5657 16ab8aa1692e9cc14d116ff034d55c92 ""
   (generated)
   "main.aux"
   "main.log"

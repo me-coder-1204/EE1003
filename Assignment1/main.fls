@@ -701,11 +701,11 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
-INPUT ./figs/fig1.png
-INPUT ./figs/fig1.png
-INPUT ./figs/fig1.png
-INPUT ./figs/fig1.png
-INPUT ./figs/fig1.png
+INPUT ./figs/fig1_.png
+INPUT ./figs/fig1_.png
+INPUT ./figs/fig1_.png
+INPUT ./figs/fig1_.png
+INPUT ./figs/fig1_.png
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

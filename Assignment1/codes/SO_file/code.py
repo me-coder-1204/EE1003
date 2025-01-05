@@ -28,7 +28,7 @@ for i in range(resolution):
     y_theoretical[i] = theoretical_function(ctypes.c_double(x[i]))
 
 plt.scatter(x, y, label = 'Plot of Finite Differences')
-plt.plot(x, y_theoretical, label = 'PLot of Theoretical Curve', color = 'red')
+plt.plot(x, y_theoretical, label = 'Plot of Theoretical Curve', color = 'red')
 
 ax = plt.gca()
 ax.spines['top'].set_color('none')
