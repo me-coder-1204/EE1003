@@ -1,0 +1,30 @@
+\frametitle{Code}
+    Code for generating the points using C:
+    \lstset{
+        language = C,
+        basicstyle=\ttfamily\small,
+        keywordstyle=\color{blue},
+        stringstyle=\color{green},
+        commentstyle=\color{gray},
+        tabsize=4
+    }
+    % \lstinputlisting{./codes/points.c}
+
+    Code for plotting the graph of the curve and area using Python:
+    \lstset{
+        language=Python,
+        basicstyle=\ttfamily\small,
+        keywordstyle=\color{blue},
+        stringstyle=\color{green},
+        commentstyle=\color{gray},
+        tabsize=4
+    }
+    % \lstinputlisting{./codes/plot.py}
+
+    The codes in:
+    {\footnotesize
+        \begin{lstlisting}
+https://github.com/me-coder-1204/EE1030/blob/main/Assignment5/codes/plot.py
+https://github.com/me-coder-1204/EE1030/blob/main/Assignment5/codes/points.c
+        \end{lstlisting}
+    }
