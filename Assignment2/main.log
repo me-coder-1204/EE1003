@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.8)  9 JAN 2025 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.8)  9 JAN 2025 22:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1557,7 +1557,7 @@ File: ts1txr.fd 2000/12/15 v3.1
 <figs/fig1.png, id=39, 462.528pt x 346.896pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 97.
+Package pdftex.def Info: figs/fig1.png  used on input line 120.
 (pdftex.def)             Requested size: 364.1953pt x 273.16086pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
@@ -1570,18 +1570,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A9B93595056829501592D696BEA36F42;292.
  ) 
 Here is how much of TeX's memory you used:
- 53210 strings out of 476076
- 1256616 string characters out of 5793776
+ 53212 strings out of 476076
+ 1256641 string characters out of 5793776
  1946187 words of memory out of 5000000
  74491 multiletter control sequences out of 15000+600000
  623521 words of font info for 170 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 109i,11n,109p,1231b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,11n,109p,1231b,922s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 77038 bytes).
+Output written on main.pdf (2 pages, 76824 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

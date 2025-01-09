@@ -69,28 +69,51 @@
     \end{align}
 
 \subsection{Trapeziodal rule:}
+    Let,
+    \begin{align}
+        \int_{a}^{b} f(x) \,dx = A
+    \end{align}
+
     The interal can be approximated as,
     \begin{align}
-        \int_{a}^{b} f(x) = \frac{\Delta x}{2} \sum_{k=1}^{N} \brak{f(x_{k-1}) - f(x_k)}
+        A \approx \frac{\Delta x}{2} \sum_{k=1}^{N} \brak{f(x_{k-1}) - f(x_k)}
     \end{align}
+
     where,
     \begin{align}
         \Delta x = \frac{b-a}{N}
     \end{align}
 
-    This can be simplified as,
+    Then the update equation can be written as,
     \begin{align}
-        \int_{a}^{b} f(x) = \Delta x\brak{\frac{f(x_0) + f(x_N)}{2}+\sum_{k=1}^{N-1} f(x_k)}
-    \end{align}
-    Thus, 
-    \begin{align}
-        \int_{0}^{\pi/2} \min\cbrak{\sin{x},\cos{x}}\,dx = \Delta x\brak{\sum_{k=1}^{N-1}\min\cbrak{\sin{x_k},\cos{x_k}}}
+        A_{n+1} = A_n + \Delta x \frac{f(x_{n+1}+f_n)}{2}
     \end{align}
     
-    Taking N as 1000 and solving, we get,
+    Substituting,
+    \begin{align}
+        A_{n+1} &= A_n + \Delta x \frac{\min\cbrak{\sin{x_n},\cos{x_n}} + \min\cbrak{\sin{x_{n+1}},\cos{x_{n+1}}}}{2}\\
+        x_{n+1} &= x_n + \Delta x
+    \end{align}
+
+    Performing the sum interatively,
+    % This can be simplified as,
+    % \begin{align}
+    %     A = \Delta x\brak{\frac{f(x_0) + f(x_N)}{2}+\sum_{k=1}^{N-1} f(x_k)}
+    % \end{align}
+    % Thus, 
+    % \begin{align}
+    %     \int_{0}^{\pi/2} \min\cbrak{\sin{x},\cos{x}}\,dx = \Delta x\brak{\sum_{k=1}^{N-1}\min\cbrak{\sin{x_k},\cos{x_k}}}
+    % \end{align}
+    
+    % Taking N as 1000 and solving, we get,
     \begin{align}
         Area \approx 0.5852
     \end{align}
+
+    % Trapeziodal rule is given as,
+    % \begin{align}
+    %     y_{n+1} = y_n + \frac{h}{2}\brak{f\brak{x_n, y_n}+}
+    % \end{align}
 
     \begin{figure}[ht]  
         \centering  
