@@ -60,7 +60,8 @@
     Solving $y=\cos{x}$ and $y = \sin{x}$ in the given interval, we can find that they intersect at $x = \frac{\pi}{4}$
     Thus, the area can be written as the following integral,
     \begin{align}
-        A = \int_{0}^{\pi/2} \min\cbrak{\sin{x}, \cos{x}}\, dx
+        A &= \int_{0}^{\pi/2} \min\cbrak{\sin{x}, \cos{x}}\, dx\\
+        A &= \int_{0}^{\pi/4} \sin{x}\,dx + \int_{\pi/4}^{\pi/2} \cos{x}\,dx
     \end{align}
     Evaluvating the integral, we get,
     \begin{align}
@@ -88,7 +89,7 @@
     
     Taking N as 1000 and solving, we get,
     \begin{align}
-        Area \approx 0.5859
+        Area \approx 0.5852
     \end{align}
 
     \begin{figure}[ht]  
