@@ -86,16 +86,35 @@
 
     Then the update equation can be written as,
     \begin{align}
-        A_{n+1} = A_n + h \,\frac{f(x_{n+1}+f_n)}{2}
+        J_{n+1} = J_n + h \,\frac{f(x_{n+1}+f_n)}{2}
     \end{align}
     
-    Substituting,
+    Finding the area from 0 to $\pi/4$,
     \begin{align}
-        A_{n+1} &= A_n + h\, \frac{\min\cbrak{\sin{x_n},\cos{x_n}} + \min\cbrak{\sin{x_{n+1}},\cos{x_{n+1}}}}{2}\\
+        J_{n+1} &= J_n + h\, \frac{\sin{x_n} + {\sin{x_{n+1}}}}{2}\\
         x_{n+1} &= x_n + h
     \end{align}
 
-    Performing the sum interatively,
+    Giving,
+    \begin{align}
+        A_1 \approx 0.2926
+    \end{align}
+
+    Similarly calculating from $\pi/4$ to $\pi/2$,
+
+    \begin{align}
+        J_{n+1} &= J_n + h\, \frac{\cos{x_n} + {\cos{x_{n+1}}}}{2}\\
+        x_{n+1} &= x_n + h
+    \end{align}
+
+    Giving,
+    \begin{align}
+        A_2 \approx 0.2926
+    \end{align}
+
+    Total Area,
+
+    % Performing the sum interatively,
     % This can be simplified as,
     % \begin{align}
     %     A = h\brak{\frac{f(x_0) + f(x_N)}{2}+\sum_{k=1}^{N-1} f(x_k)}
@@ -107,7 +126,8 @@
     
     % Taking N as 1000 and solving, we get,
     \begin{align}
-        Area \approx 0.5852
+        A = A_1 + A_2\\
+        A \approx 0.5852
     \end{align}
 
     % Trapeziodal rule is given as,

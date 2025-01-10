@@ -42,8 +42,8 @@ for i in range(len(x)):
     if x1[i]>np.pi/4 and x1[i] < np.pi/2: cond_cos[i] = True
     else: cond_cos[i] = False
 
-plt.fill_between(x1, sin, 0, where=cond_sin, color = 'green', alpha = 0.5, label = f'Area = {area}')
-plt.fill_between(x1,cos,0, where=cond_cos, color = 'green', alpha = 0.5)
+plt.fill_between(x1, sin, 0, where=cond_sin, color = 'red', alpha = 0.5, label = f'Area = {area/2}')
+plt.fill_between(x1,cos,0, where=cond_cos, color = 'blue', alpha = 0.5, label = f'Area = {area/2}')
 ax = plt.gca()
 ax.spines['top'].set_color('none')
 ax.spines['left'].set_position('zero')
