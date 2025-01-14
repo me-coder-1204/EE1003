@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736768302.52153 "/home/arav/EE1003/EE1003/Assignment3/main.tex" "main.pdf" "main" 1736768303.46824 0
-  "/home/arav/EE1003/EE1003/Assignment3/main.tex" 1736768302.34641 3509 57dd8c7884d91c5df963384caeaf7b43 ""
+["pdflatex"] 1736852754.61807 "/home/arav/EE1003/EE1003/Assignment3/main.tex" "main.pdf" "main" 1736852755.53669 0
+  "/home/arav/EE1003/EE1003/Assignment3/main.tex" 1736852754.43992 4032 bbe4132d2120b95cbcc2567f1a1efe59 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1736268207 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1736268207 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1736268207 2228 e564491c42a4540b5ebb710a75ff306c ""
@@ -16,6 +16,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1736268207 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1736268207 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1736268207 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm" 1736268207 1048 a97cff5f6b833b712079817ce7a40d4c ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm" 1736268207 1056 e2202af076e43d03fc17f87e104021b0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm" 1736268207 4572 2c370d27bbb031f7592de9d41dc8cfca ""
   "/usr/share/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm" 1736268207 4452 0fd0a792eaab7113e4d4f1b941ff0367 ""
@@ -43,6 +44,7 @@
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1736268207 46026 6dab18b61c907687b520c72847215a68 ""
   "/usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1736268207 45458 a3faba884469519614ca56ba5f6b1de1 ""
   "/usr/share/texmf-dist/fonts/vf/public/txfonts/txb.vf" 1736268207 904 6f62e1cf12eaf73424d693287a9d3dce ""
+  "/usr/share/texmf-dist/fonts/vf/public/txfonts/txi.vf" 1736268207 904 4ff20c038f0c15338aa91e1bb66c7989 ""
   "/usr/share/texmf-dist/fonts/vf/public/txfonts/txmi.vf" 1736268207 960 cfcc9d587b40b769f64408b3ca115941 ""
   "/usr/share/texmf-dist/fonts/vf/public/txfonts/txr.vf" 1736268207 904 e582cae2d8ae3f48a0a520440ebcdb51 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1736268207 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -308,12 +310,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1736268207 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1736330937.98568 325518 3dff2bac5bde75cd7e600320ce8a00d6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1736330921 7113022 a1028fdac59a248cadd54a57aeb04c38 ""
-  "figs/fig2.png" 1736768097.14473 17925 6ea31ebb7d1d27f2a75391bf90c0b937 ""
+  "figs/fig2.png" 1736852462.44333 17925 6ea31ebb7d1d27f2a75391bf90c0b937 ""
   "gvv-book.sty" 1736590091.46327 2552 b3fa9856c041accf435cbb23e23c6736 ""
   "gvv.sty" 1736590091.47327 4394 571e08b048e47d91d76be47712c5c5ed ""
-  "main.aux" 1736768303.38309 313 fe8f5b087f2c24d56f202cb4bc82583c "pdflatex"
-  "main.out" 1736768303.33975 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1736768302.34641 3509 57dd8c7884d91c5df963384caeaf7b43 ""
+  "main.aux" 1736852755.44657 563 1ab1dd223be69b201f2ba4d26ab54051 "pdflatex"
+  "main.out" 1736852755.44657 282 f1fddd47e68d9cd96f4ea60ae0687542 "pdflatex"
+  "main.tex" 1736852754.43992 4032 bbe4132d2120b95cbcc2567f1a1efe59 ""
   (generated)
   "main.aux"
   "main.log"

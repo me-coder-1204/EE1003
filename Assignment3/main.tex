@@ -56,8 +56,7 @@
 
 \textbf{Question:} Find the minima and maxima of the function $f(x) = (x-1)^2 + 3,\,x \in \sbrak{-3, 1}$
 
-We shall use the gradient decent method to find the minima and maxima of the given function
-
+\subsection{Gradient Decent}
 For minima,
 \begin{align}
     x_{n+1} = x_n + \mu f^\prime(x_n)\\
@@ -103,6 +102,23 @@ This gives,
     x_{max} = 3    
 \end{align}
 
+\subsection{Quadratic Programming}
+    We need,
+    \begin{align}
+        \min_{x} \myvec{0 & 1}\vec{x}\\
+        \text{s.t. } \vec{x}^\top\myvec{1 & 0\\0 & 0}\vec{x} -\myvec{-2 \\ -1}^\top\vec{x} + 4 = 0
+    \end{align}
+
+    But the above equation is non-convex and hence we will relax it, given by,
+    \begin{align}
+        \min_{x} \myvec{0 & 1}\vec{x}\\
+        \text{s.t. }\vec{x}^\top\myvec{1 & 0\\0 & 0}\vec{x} - \myvec{-2\\-1}^\top\vec{x} \leq 0
+    \end{align}
+
+    Using Quadratic Optimization with help of cvxpy, we get,
+    \begin{align}
+        x_{min} = 1
+    \end{align}
 % \subsection{Theoretical Solution:}
 
 \begin{figure}[ht]  
