@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736852754.61807 "/home/arav/EE1003/EE1003/Assignment3/main.tex" "main.pdf" "main" 1736852755.53669 0
-  "/home/arav/EE1003/EE1003/Assignment3/main.tex" 1736852754.43992 4032 bbe4132d2120b95cbcc2567f1a1efe59 ""
+["pdflatex"] 1736875705.23702 "/home/arav/EE1003/EE1003/Assignment3/main.tex" "main.pdf" "main" 1736875706.36392 0
+  "/home/arav/EE1003/EE1003/Assignment3/main.tex" 1736875705.02543 4033 b76ffa41bfc9b7f64bfbb05b423ff0bc ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1736268207 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1736268207 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1736268207 2228 e564491c42a4540b5ebb710a75ff306c ""
@@ -313,9 +313,9 @@
   "figs/fig2.png" 1736852462.44333 17925 6ea31ebb7d1d27f2a75391bf90c0b937 ""
   "gvv-book.sty" 1736590091.46327 2552 b3fa9856c041accf435cbb23e23c6736 ""
   "gvv.sty" 1736590091.47327 4394 571e08b048e47d91d76be47712c5c5ed ""
-  "main.aux" 1736852755.44657 563 1ab1dd223be69b201f2ba4d26ab54051 "pdflatex"
-  "main.out" 1736852755.44657 282 f1fddd47e68d9cd96f4ea60ae0687542 "pdflatex"
-  "main.tex" 1736852754.43992 4032 bbe4132d2120b95cbcc2567f1a1efe59 ""
+  "main.aux" 1736875706.26544 563 1ab1dd223be69b201f2ba4d26ab54051 "pdflatex"
+  "main.out" 1736875706.26544 282 f1fddd47e68d9cd96f4ea60ae0687542 "pdflatex"
+  "main.tex" 1736875705.02543 4033 b76ffa41bfc9b7f64bfbb05b423ff0bc ""
   (generated)
   "main.aux"
   "main.log"
