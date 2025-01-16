@@ -188,6 +188,15 @@ The companion matrix is given as,
     M = \myvec{0 & 2700\\1 & 60}
 \end{align}
 
+We can find the eigenvalues using QR algorithm.
+
+\begin{align}
+    M_n = Q_n\,R_n\\
+    M_{n+1} = R_n\,Q_n
+\end{align}
+
+The diagonal elements of $M_n$ after enough iterations will give you the eigenvalues.
+
 The eigenvalues of the above matrix are,
 \begin{align}
     \lambda_1 = 90\\

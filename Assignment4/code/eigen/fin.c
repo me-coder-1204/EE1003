@@ -9,9 +9,9 @@
 #include "QR.h"
 
 int main(int argc, char* argv[]){
-    // clock_t start, end;
-    // double cpu_time_used;
-    // start = clock();
+    clock_t start, end;
+    double cpu_time_used;
+    start = clock();
     // if(argc<=1) return -1;
 
     // srand(5678);
@@ -34,8 +34,6 @@ int main(int argc, char* argv[]){
     // eig = eigs(Ak, m);
     // for(int i=0;i<m;i++) printf("%lf + i%lf\n",creal(eig[i]),cimag(eig[i]));
 
-    // end = clock();
-    // printf("%lf\n", (double) (end-start)/CLOCKS_PER_SEC);
     // freeMat(A, m);
     // freeMat(Ak,m);
     // free(eig);
@@ -43,13 +41,31 @@ int main(int argc, char* argv[]){
     // // freeMat(Hq[1],m);
     // // free(Hq);
 
-    double complex** A = createMat(2, 2);
-    A[0][0] = 0; A[0][1] = 2700;
-    A[1][0] = 1; A[1][1] = 60;
+    double complex** A = zeros(5, 5);
+    // A[0][0] = 0; A[0][1] = 2700;
+    // A[1][0] = 1; A[1][1] = 60;
 
-    double complex** Ak = QReig(A, 2);
-    double complex* eig = eigs(Ak ,2);
-    printf("%lf, %lf",creal(eig[0]), creal(eig[1]));
+    for(int i=1;i<5;i++){
+        A[i][i-1] = 1;
+    }
+
+    A[0][4] = 120;
+    A[1][4] = -274;
+    A[2][4] = 225;
+    A[3][4] = -85;
+    A[4][4] = 15;
+
+    printMat(A, 5, 5);
+    double complex** Ak = QReig(A, 5);
+    double complex* eig = eigs(Ak ,5);
+    // printf("%lf, %lf",creal(eig[0]), creal(eig[1]));
+    for(int i =0; i<5; i++){
+        printf("%lf\n",eig[i]);
+    }
+
+    end = clock();
+    printf("%lf\n", (double) (end-start)/CLOCKS_PER_SEC);
+    
 
     return 0;
 }

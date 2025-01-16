@@ -195,8 +195,8 @@ int checkConv(double complex** Ak, double complex** AkP, int m){
     // printf("%lf\n",creal(change));
     // printMat(Ak,m,m);printf("\n");
     // printMat(AkP,m,m);printf("\n");
-    for(int i=0;i<m;i++) printf("%lf ",creal(e1[i]));
-    printf("\n");
+    // for(int i=0;i<m;i++) printf("%lf ",creal(e1[i]));
+    // printf("\n");
     // for (int i = 0; i < m; i++) printf("%lf ", creal(e2[i]));
     // printf("\n");
     free(e1);free(e2);
@@ -215,7 +215,8 @@ double complex** QReig(double complex** A, int m){
     // QR *qr = malloc(sizeof(QR));
     int conv = 0;
     int iterations=0;
-    for(int i=0;conv!=1 && i<m*m*m;i++){
+    // for(int i=0;conv!=1 && i<m*m*m;i++){
+    for(int i=0;i <1000;i++){
         // printf("%d\n",i);
         iterations++;
         // double complex wilk = wilkinsonCooef(Ak, m);
