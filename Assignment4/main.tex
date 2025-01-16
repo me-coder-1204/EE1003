@@ -164,6 +164,18 @@
     Tolerance = 10e-10\\
     Number of iterations = 7
 
+We also have a method to solve it without any iterations with the help of companion matrix.
+
+If the given polynomial is,
+\begin{align}
+	P(x) = c_0 + c_1\,x + c_2\,x^2 + \dots + c_{n-1}\,x^{n-1} + x^n
+\end{align}
+
+Then the companion matrix is given as,
+
+\begin{align}
+	M = \myvec{0 & 0 & \dots & 0 & -c_0\\1 & 0 & \dots & 0 & -c_1\\0 & 1 & \dots & }
+\end{align}
     \begin{figure}[ht]  
         \centering  
         \includegraphics[width=\columnwidth]{figs/fig1.png}  
