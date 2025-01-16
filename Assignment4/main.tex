@@ -164,6 +164,7 @@
     Tolerance = 10e-10\\
     Number of iterations = 7
 
+\subsection{Matrix Method}
 We also have a method to solve it without any iterations with the help of companion matrix.
 
 If the given polynomial is,
@@ -174,8 +175,31 @@ If the given polynomial is,
 Then the companion matrix is given as,
 
 \begin{align}
-	M = \myvec{0 & 0 & \dots & 0 & -c_0\\1 & 0 & \dots & 0 & -c_1\\0 & 1 & \dots & }
+	M = \myvec{0 & 0 & \dots & 0 & -c_0\\1 & 0 & \dots & 0 & -c_1\\0 & 1 & \dots & 0 & -c_2\\\vdots & \vdots & \vdots & \vdots &\vdots \\0 & 0 & \dots & 1 & -c_{n-1}}
 \end{align}
+
+For our equation,
+\begin{align}
+    P(x) = -2700 - 60\,x + x^2
+\end{align}
+
+The companion matrix is given as,
+\begin{align}
+    M = \myvec{0 & 2700\\1 & 60}
+\end{align}
+
+The eigenvalues of the above matrix are,
+\begin{align}
+    \lambda_1 = 90\\
+    \lambda_2 = -30
+\end{align}
+
+As the root cannot be negative,
+\begin{align}
+    x = 90
+\end{align}
+
+
     \begin{figure}[ht]  
         \centering  
         \includegraphics[width=\columnwidth]{figs/fig1.png}  

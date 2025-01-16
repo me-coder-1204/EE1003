@@ -20,6 +20,7 @@ while np.abs(x_1 - x_0) > 10e-10:
     print(x_0)
     c+=1
 print(c)
+
 #Newton's iteration
 print('')
 c=0
@@ -36,7 +37,6 @@ while(np.abs(x_1 - x_0)>10e-10):
     c+=1
 print(c)
 
-
 #secant method
 x_0 = 150
 x_1 = 50
@@ -52,6 +52,11 @@ while np.abs(x_2 - x_1) > 10e-10:
     print(x_2)
     c+=1
 print(c)
+
+M = np.array([[0, 2700],[1, 60]])
+
+lam = np.linalg.eig(M)
+print(lam)
 
 plt.plot(x_range, func(x_range), label = 'function')
 plt.scatter(x_2, func(x_2), color = 'red', label = 'solution')
