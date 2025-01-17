@@ -215,8 +215,8 @@ double complex** QReig(double complex** A, int m){
     // QR *qr = malloc(sizeof(QR));
     int conv = 0;
     int iterations=0;
-    // for(int i=0;conv!=1 && i<m*m*m;i++){
-    for(int i=0;i <1000;i++){
+    for(int i=0;conv!=1 && i<m*m*m;i++){
+    // for(int i=0;i <1000;i++){
         // printf("%d\n",i);
         iterations++;
         // double complex wilk = wilkinsonCooef(Ak, m);

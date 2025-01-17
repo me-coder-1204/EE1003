@@ -10,7 +10,6 @@
 
 int main(int argc, char* argv[]){
     clock_t start, end;
-    double cpu_time_used;
     start = clock();
     // if(argc<=1) return -1;
 
@@ -22,10 +21,8 @@ int main(int argc, char* argv[]){
     //         A[i][j] = (double complex) ((rand()/(double)RAND_MAX)-0.5);
     //     }
     // }
-    // // double complex*** Hq = malloc(2 * sizeof(double complex**));
-    // // // hessenberg(A, m,Hq);
-
-    // // Hq[0] = createMat(m , m); Hq[1] = createMat(m , m);
+    
+    
     // double complex* eig;
     // // hessenberg(A, m, Hq);
 
@@ -54,6 +51,12 @@ int main(int argc, char* argv[]){
     A[2][4] = 225;
     A[3][4] = -85;
     A[4][4] = 15;
+
+    // double complex** Hq = createMat(5 ,5);
+    // double complex*** Hq = malloc(2 * sizeof(double complex**));
+    // Hq[0] = createMat(5 , 5); Hq[1] = createMat(5 , 5);
+    // hessenberg(A, 5, Hq);
+
 
     printMat(A, 5, 5);
     double complex** Ak = QReig(A, 5);
