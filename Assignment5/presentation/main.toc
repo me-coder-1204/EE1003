@@ -1,0 +1,7 @@
+\beamer@sectionintoc {2}{Problem}{3}{0}{1}
+\beamer@sectionintoc {3}{Solution}{4}{0}{2}
+\beamer@subsectionintoc {3}{1}{Theoretical Solution}{4}{0}{2}
+\beamer@subsectionintoc {3}{2}{Numerical Solution}{5}{0}{2}
+\beamer@subsubsectionintoc {3}{2}{1}{Gaussian Elimination}{9}{0}{2}
+\beamer@subsubsectionintoc {3}{2}{2}{Doolittle's Algorithm}{13}{0}{2}
+\beamer@subsectionintoc {3}{3}{Plotting the curve}{18}{0}{2}
