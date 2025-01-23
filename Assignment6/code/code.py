@@ -70,6 +70,15 @@ plt.legend(loc='best')
 
 
 plt.savefig("../figs/fig1.png")
+plt.close()
+# plt.show()
+
+x = np.array([0, 1])
+y = np.array([p1T[0][-1], p2T[0][-1]])
+
+
+plt.stem(x, y, linefmt='--')
+plt.grid()
+plt.axis('equal')
+plt.savefig("../figs/fig2.png")
 plt.show()
-
-

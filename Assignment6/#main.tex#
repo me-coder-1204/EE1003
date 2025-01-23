@@ -63,7 +63,7 @@
 \section{Theoretical solution}
     We can count and conclude that,
 
-    The Bernoulli's random variable as,
+    The random variable as,
     \begin{align}
         X(w) = \begin{cases}
             1, & w\text{ is a vowel}\\
@@ -106,10 +106,5 @@
         \includegraphics[width=\columnwidth]{figs/fig1.png}  
         \caption{Verification}
         % \columnwidth
-    \end{figure}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=\columnwidth]{figs/fig2.png}
-        \caption{Stem Plot}
     \end{figure}
 \end{document}
