@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-iterations = 10000
+iterations = 5000
 
 def LCG():
     m = 2**31

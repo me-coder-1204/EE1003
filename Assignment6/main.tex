@@ -61,21 +61,27 @@
 \end{enumerate}
 
 \section{Theoretical solution}
+    Taking vowel as 1 and consonant as 0,
+
     We can count and conclude that,
 
-    The Bernoulli's random variable as,
+    The Bernoulli's random variable's PMF as,
+    % And PMF of the above random variable as,
     \begin{align}
-        X(w) = \begin{cases}
-            1, & w\text{ is a vowel}\\
-            0, & w\text{ is a consonant} 
+        f_X(n) = \begin{cases}
+            \frac{6}{13},& n=0\\
+            \frac{7}{13},& n=1\\
+            0,& \text{otherwise}
         \end{cases}
     \end{align}
-    
-    And PMF of the above random variable as,
+
+    And the CDF of it is,
+
     \begin{align}
-        f_X(x) = \begin{cases}
-            \frac{6}{13},& x=1\\
-            \frac{7}{13},& x=0
+        C_X(n) = \begin{cases}
+            0,& n<0\\
+            \frac{6}{13},& 0\leq n<1\\
+            1,&n\geq1
         \end{cases}
     \end{align}
 
@@ -98,10 +104,9 @@
     \end{align}
 
     This algorithm is really useful for general generation of random number as it uses less memory. But it cannot be used for cryptographic encryption because it's simple to crack it.
-
     But we wouldn't need any further complex RNGs as this will suffice for this.
 
-    \begin{figure}[ht]  
+    \begin{figure}[H]  
         \centering  
         \includegraphics[width=\columnwidth]{figs/fig1.png}  
         \caption{Verification}
