@@ -7,10 +7,17 @@
 MCU = atmega328p
 F_CPU=16000000
 FORMAT = ihex
-TARGET = blink
+TARGET = main
+#TARGET = count
 SRC = $(TARGET).c
-ASRC = 
+ASRC = initasm.S dispasm.S delayasm.S showasm.S
+# ASRC = initasm.S delayasm.S
 OPT = s
+
+CMD_FLASH=avrdude
+MCU1=ATMEGA328P
+DEVPORT=/dev/ttyACM0
+BAUDRATE=115200
 
 # Name of this Makefile (used for "make depend").
 MAKEFILE = Makefile
@@ -21,7 +28,6 @@ MAKEFILE = Makefile
 # c99   - ISO C99 standard (not yet fully implemented)
 # gnu99 - c99 plus GCC extensions
 CSTANDARD = -std=gnu99
-#CSTANDARD = -std=gnu11
 
 # Place -D or -U options here
 CDEFS =
@@ -33,9 +39,10 @@ CINCS =
 CDEBUG = -g
 CWARN = -Wall -Wstrict-prototypes
 CTUNING = -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums
-CFLAGS = $(CDEBUG) $(CDEFS) $(CINCS) -O$(OPT) -O2 $(CWARN) $(CSTANDARD) $(CEXTRA) 
+CFLAGS = $(CDEBUG) $(CDEFS) $(CINCS) -O$(OPT) $(CWARN) $(CSTANDARD) $(CEXTRA)
 CPPFLAGS=-DF_CPU=$(F_CPU)L
-ASFLAGS = -Wa,-adhlns=$(<:.S=.lst),-gstabs 
+#ASFLAGS = -Wa,-adhlns=$(<:.S=.lst),-gstabs 
+
 
 #Additional libraries.
 
@@ -69,7 +76,7 @@ AVRDUDE_BUDRATE = 115200
 AVRDUDE_WRITE_FLASH = -U flash:w:$(TARGET).hex
 AVRDUDE_WRITE_EEPROM = -U eeprom:w:$(TARGET).eep
 
-AVRDUDE_BASIC =  -p $(MCU) -P $(AVRDUDE_PORT) -c $(AVRDUDE_PROGRAMMER) -b $(AVRDUDE_BUDRATE)
+AVRDUDE_BASIC = -p $(MCU) -P $(AVRDUDE_PORT) -c $(AVRDUDE_PROGRAMMER) -b $(AVRDUDE_BUDRATE)
 AVRDUDE_FLAGS = $(AVRDUDE_BASIC) $(AVRDUDE_NO_VERIFY) $(AVRDUDE_VERBOSE) $(AVRDUDE_ERASE_COUNTER)
 
 
@@ -164,11 +171,3 @@ depend:
 	$(CC) -M -mmcu=$(MCU) $(CDEFS) $(CINCS) $(SRC) $(ASRC) >> $(MAKEFILE)
 
 .PHONY:	all build elf hex eep lss sym program coff extcoff clean depend 
-# DO NOT DELETE THIS LINE -- make depend depends on it.
-main.o: main.c /usr/avr/include/avr/io.h /usr/avr/include/avr/sfr_defs.h \
- /usr/avr/include/inttypes.h /usr/lib/gcc/avr/14.2.0/include/stdint.h \
- /usr/avr/include/stdint.h /usr/avr/include/avr/iom328p.h \
- /usr/avr/include/avr/portpins.h /usr/avr/include/avr/common.h \
- /usr/avr/include/avr/version.h /usr/avr/include/avr/fuse.h \
- /usr/avr/include/avr/lock.h /usr/avr/include/util/delay.h \
- /usr/avr/include/util/delay_basic.h
