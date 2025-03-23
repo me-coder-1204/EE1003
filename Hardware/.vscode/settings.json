@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.inc": "c",
+        "cmath": "c",
+        "complex": "c",
+        "tinyexpr.h": "c"
+    }
+}
