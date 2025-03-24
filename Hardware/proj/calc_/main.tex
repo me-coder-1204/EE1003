@@ -1,0 +1,74 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+% \usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{pdfpages}
+% \usepackage{algpseudocode}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{24 Hour Digital Clock}
+
+\author{EE24BTECH11053 - S A Aravind Eswar}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\section{Introduction}
+
+I have built a 24 hour clock, with 2 modes, running with help of incremental logic. 
+
+\section{Working}
+
+The first mode is normal function mode, where it displays currently set time(\texttt{normal mode}). In mode two, we can set time being displayed(\texttt{set mode}).To switch between the modes, we press \texttt{button 1}. 
+
+Once you enter the \texttt{set mode}, the seconds segment will start blinking. This indicates currently seconds is selected to change. To circulate between seconds, minutes and hours segments, press \texttt{button 2}. The currently selected segment will blink. To change the time displayed the current segment, press \texttt{button 3}. For hours and minutes, the time increments, meanwhile for seconds, it resets back to \texttt{00}. The clock doesn't stop ticking in this mode.
+
+In \texttt{normal mode}, the clock runs normally and buttons \texttt{button 2} and \texttt{button 3} are disabled.
+
+\subsection{Hardware implementation}
+
+
+
+\end{document}
